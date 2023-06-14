@@ -29,19 +29,19 @@
 - code.js
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%208.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%208.png"/>
 
-1.2.2) Лишний размер ресурса
+1.2.2) Лишний размер ресурса <br />
 Были выбраны запросы с размером > 140 kB при среднем размере ~30 kB
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large.png"/>
 
-1.2.3) Медленно загружающиеся ресурсы
+1.2.3) Медленно загружающиеся ресурсы <br />
 Были выбраны запросы, закончившиеся ошибкой с длительностью >1s, и успешные запросы с длительностью >200ms
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Long%20Time.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Long%20Time.png"/>
 
-1.2.4) Ресурсы, блокирующие загрузку
+1.2.4) Ресурсы, блокирующие загрузку <br />
 Были выбраны запросы, начало которых произошло до этапа загрузки страницы First Paint
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Blocking%20Requests.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Blocking%20Requests.png"/>
 
-1.2.5) Дополнительно выделенные запросы
+1.2.5) Дополнительно выделенные запросы <br />
 - Заблокированные запросы
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Blocked%20Requests.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Blocked%20Requests.png"/>
 
