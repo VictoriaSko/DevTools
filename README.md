@@ -16,19 +16,19 @@
 ### 2.1) Профиль загрузки страницы - [Trace.json](https://github.com/VictoriaSko/DevTools/blob/main/Performance/Trace.json)
 
 ### 2.2) Время в мс от начала навигации до событий:
-**First Paint - 566.6 ms** 
+**First Paint - 566.6 ms** <br />
 ![](https://github.com/VictoriaSko/DevTools/blob/main/Performance/First%20Paint.png)
 
-**First Contentful Paint - 485.9 ms**
+**First Contentful Paint - 485.9 ms** <br />
 ![](https://github.com/VictoriaSko/DevTools/blob/main/Performance/First%20Contentful%20Paint.png)
 
-**Largest Contentful Paint - 901.4 ms**
+**Largest Contentful Paint - 901.4 ms** <br />
 ![](https://github.com/VictoriaSko/DevTools/blob/main/Performance/LCP.png)
 
-**DOMContentLoaded Event - 813 ms**
+**DOMContentLoaded Event - 813 ms** <br />
 ![](https://github.com/VictoriaSko/DevTools/blob/main/Performance/DOMContentLoaded%20Event.png)
 
-**Onload Event (Load) - 31159.4 ms**
+**Onload Event (Load) - 31159.4 ms** <br />
 ![](https://github.com/VictoriaSko/DevTools/blob/main/Performance/Onload%20Event.png)
 
 ### 2.3) DOM-элементе, на котором происходит LCP 
