@@ -5,13 +5,51 @@
 
 **1.2) Неоптимальные места** <br />
 1.2.1) Дублирование ресурсов
+- www.1cont.ru
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%201.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%201.png"/>
+
+- system_gd-logo.png
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%202.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%202.png"/>
+
+- popper.min.js
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%203.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%203.png"/>
+
+- jquery-3.5.1.js
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%204.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%204.png"/>
+
+- fontawesome-webfont.woff2?v=4.7.0
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%205.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%205.png"/>
+
+- data:image/png;base...
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%206.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%206.png"/>
+
+- bootstrap.bundle.min.js, bootstrap.min.css, bootstrap.min.js
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%207.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%207.png"/>
+
+- code.js
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%208.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%208.png"/>
 
 1.2.2) Лишний размер ресурса
+Были выбраны запросы с размером > 140 kB при среднем размере ~30 kB
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large.png"/>
 
 1.2.3) Медленно загружающиеся ресурсы
+Были выбраны запросы, закончившиеся ошибкой с длительностью >1s, и успешные запросы с длительностью >200ms
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Long%20Time.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Long%20Time.png"/>
 
 1.2.4) Ресурсы, блокирующие загрузку
+Были выбраны запросы, начало которых произошло до этапа загрузки страницы First Paint
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Blocking%20Requests.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Blocking%20Requests.png"/>
 
+1.2.5) Дополнительно выделенные запросы
+- Заблокированные запросы
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Blocked%20Requests.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Blocked%20Requests.png"/>
+
+- Запросы, закончившиеся с ошибкой
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Failed%20Requests.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Failed%20Requests.png"/>
+
+- Запросы со статусом 302, которые привели к лишним запросам по новым адресам
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/302%20Status.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/302%20Status.png"/>
 
 ### 2) Performance
 **2.1) Профиль загрузки страницы - [Trace.json](https://github.com/VictoriaSko/DevTools/blob/main/Performance/Trace.json)**
