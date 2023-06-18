@@ -70,12 +70,12 @@
 - **Onload Event (Load) - 31215.9 ms** <br />
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Performance/Onload%20Event.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Performance/Onload%20Event.png" width="200"/>
 
-**2.3) DOM-элементе, на котором происходит LCP** <br />
+**2.3) DOM-элемент, на котором происходит LCP** <br />
 `<img loading="lazy" src="/images/branding/10/imageTop_1628667062.7856.jpg" data-url="/images/branding/10/imageTop_1628667062.7856.jpg" alt="-">`
 
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Performance/LCP%20DOM%20Component.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Performance/LCP%20DOM%20Component.png" width="500"/>
 
-**2.4) Времени в миллисекундах, которое тратится на разные этапы обработки документа**
+**2.4) Времz в миллисекундах, которое тратится на разные этапы обработки документа**
 - **Loading - 21 ms** <br />
 - **Scripting - 1583 ms** <br />
 - **Rendering - 440 ms** <br />
@@ -103,7 +103,7 @@
 **1.1) Профиль загрузки ресурсов при открытии страницы - [www.gd.ru.har](https://github.com/VictoriaSko/DevTools/blob/main/Network/www.gd.ru.har)**
 
 **1.2) Неоптимальные места** <br />
-1.2.1) Дублирование ресурсов
+1.2.1) Дублирование ресурсов <br />
 Ресурсы аналогичны продублированным при обычной загрузке
 
 1.2.2) Лишний размер ресурса <br />
@@ -112,7 +112,7 @@
 1.2.5) Дополнительно выделенные запросы <br />
 
 ### 2) Performance
-**2.1) Профиль загрузки страницы - [Trace-slow.json](https://github.com/VictoriaSko/DevTools/blob/main/Performance/Trace-slow.json)**
+**2.1) Профиль загрузки страницы - [Trace-slow.json](https://github.com/VictoriaSko/DevTools/blob/main/Performance/Trace-slow.json.zip)**
 
 **2.2) Время в мс от начала навигации до событий:**
 - **First Paint - 9689.0 ms** <br />
@@ -130,12 +130,12 @@
 - **Onload Event (Load) - 53069.5 ms** <br />
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Performance/Onload%20Event%20Slow.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Performance/Onload%20Event%20Slow.png" width="200"/>
 
-**2.3) DOM-элементе, на котором происходит LCP** <br />
+**2.3) DOM-элемент, на котором происходит LCP** <br />
 `<img loading="lazy" src="/images/branding/10/imageTop_1628667062.7856.jpg" data-url="/images/branding/10/imageTop_1628667062.7856.jpg" alt="-">`
 
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Performance/LCP%20DOM%20Component.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Performance/LCP%20DOM%20Component.png" width="500"/>
 
-**2.4) Времени в миллисекундах, которое тратится на разные этапы обработки документа**
+**2.4) Время в миллисекундах, которое тратится на разные этапы обработки документа**
 - **Loading - 90 ms** <br />
 - **Scripting - 3467 ms** <br />
 - **Rendering - 3788 ms** <br />
