@@ -29,6 +29,12 @@
 - code.js
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%208.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%208.png"/>
 
+- openapi.js
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%209.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%209.png"/>
+
+- fontawesome-webfont.woff2?v=4.7.0
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%2010.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Duplicate%2010.png"/>
+
 1.2.2) Лишний размер ресурса <br />
 Были выбраны запросы с размером > 140 kB при среднем размере ~30 kB
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large.png"/>
@@ -100,16 +106,21 @@
 # Анализ открытия сайта при замедлении CPU 4x slowdown и эмуляцию сети Slow 3G.
 
 ### 1) Network 
-**1.1) Профиль загрузки ресурсов при открытии страницы - [www.gd.ru.har](https://github.com/VictoriaSko/DevTools/blob/main/Network/www.gd.ru.har)**
+**1.1) Профиль загрузки ресурсов при открытии страницы - [www.gd.ru-slow.har](https://github.com/VictoriaSko/DevTools/blob/main/Network/www.gd.ru-slow.har)**
 
 **1.2) Неоптимальные места** <br />
 1.2.1) Дублирование ресурсов <br />
 Ресурсы аналогичны продублированным при обычной загрузке
 
 1.2.2) Лишний размер ресурса <br />
+Ресурсы аналогичны полученным при обычной загрузке
+
 1.2.3) Медленно загружающиеся ресурсы <br />
 1.2.4) Ресурсы, блокирующие загрузку <br />
+Ресурсы аналогичны блокирующим при обычной загрузке
+
 1.2.5) Дополнительно выделенные запросы <br />
+Ресурсы аналогичны выделенным при обычной загрузке
 
 ### 2) Performance
 **2.1) Профиль загрузки страницы - [Trace-slow.json](https://github.com/VictoriaSko/DevTools/blob/main/Performance/Trace-slow.json.zip)**
