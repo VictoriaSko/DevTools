@@ -39,8 +39,28 @@
 Были выбраны запросы с размером > 140 kB при среднем размере ~30 kB
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large.png"/>
 
+При первичной загрузке страницы запрашивается JS скрипт yastatic.net/partner-code-bundles размером 120 kB, при это на момет загрузки страницы в нем используется менее 2% кода
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%201.1.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%201.1.png"/>
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%201.2.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%201.2.png"/>
+
+При загрузке документа www.gd.ru осуществляется загрузка неиспользуемого кода JS и СSS в 41.6% от суммарного размера документа. Неиспользуемые сразу после загрузки скрипты и стили можно было бы загружать по мере необходимости
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%202.1.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%202.1.png"/>
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%202.2.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%202.2.png"/>
+
+Также при входе на страницу загружаются стили common_frontend.css, среди которых сразу же используется менее 13% от общего объема файла
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%203.1.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%203.1.png"/>
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%203.2.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%203.2.png"/>
+
+Кроме неиспользуемых сразу после загрузки скриптов и стилей, загружаются излишние размеры иконок, логотипов и изображений
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%204.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%204.png"/>
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%205.1.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%205.1.png"/>
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%205.2.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%205.2.png"/>
+
+Кроме этого хотелось бы выделить изображение, которое является LCP - фоновая картинка черного цвета, которая имеет размер 4.1 kB
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%206.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Large%206.png"/>
+
 1.2.3) Медленно загружающиеся ресурсы <br />
-Были выбраны запросы, закончившиеся ошибкой с длительностью >1s, и успешные запросы с длительностью >200ms
+Были выбраны запросы длительностью >150ms
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Long%20Time.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Long%20Time.png"/>
 
 1.2.4) Ресурсы, блокирующие загрузку <br />
@@ -56,6 +76,10 @@
 
 - Запросы со статусом 302, которые привели к лишним запросам по новым адресам
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/302%20Status.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/302%20Status.png"/>
+
+- Запросы на загрузку изображений для кнопок, бейджиков и логотипов, которые могли бы быть реализованы в виде html элементов с css стилями, либо с добавлением изображений меньшего размера 
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Image%201.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Image%201.png"/>
+<img src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Image%202.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Network/Image%202.png"/>
 
 ### 2) Performance
 **2.1) Профиль загрузки страницы - [Trace.json](https://github.com/VictoriaSko/DevTools/blob/main/Performance/Trace.json)**
@@ -116,6 +140,8 @@
 Ресурсы аналогичны полученным при обычной загрузке
 
 1.2.3) Медленно загружающиеся ресурсы <br />
+Ресурсы аналогичны медленным при обычной загрузке
+
 1.2.4) Ресурсы, блокирующие загрузку <br />
 Ресурсы аналогичны блокирующим при обычной загрузке
 
