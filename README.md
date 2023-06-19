@@ -122,7 +122,7 @@
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Coverage/Unused%20CSS.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Coverage/Unused%20CSS.png" width="500"/>
 
 **3.2) Объём неиспользованного JS в ходе загрузки страницы в килобайтах** <br />
-- **Unused JS - 2700 kB**
+- **Unused JS - 2764.8 kB**
 <img src="https://github.com/VictoriaSko/DevTools/blob/main/Coverage/Unused%20JS.png" data-canonical-src="https://github.com/VictoriaSko/DevTools/blob/main/Coverage/Unused%20JS.png" width="500"/>
 
 ---
